@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import photo from './picture/photo.jpeg'
 
 const roles = ['Frontend Developer', 'Flutter Developer', 'Backend Engineer', 'Graphic Designer', 'Full Stack Dev']
 
@@ -93,8 +94,8 @@ export default function Hero() {
             </div>
 
             <p className="font-body text-gray-400 text-lg leading-relaxed max-w-lg mx-auto lg:mx-0 mb-10 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-              ສ້າງປະສົບການດິຈິຕອນດ້ວຍ code ແລະ design.
-              ຈາກ Web, Mobile ຈົນເຖິງ Graphic — ຂ້ອຍເຮັດໄດ້ທຸກຢ່າງ.
+              Crafting digital experiences through code and design. 
+              From Web, Mobile to Graphic — I've done it all and always ready to learn.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 justify-center lg:justify-start animate-slide-up" style={{ animationDelay: '0.3s' }}>
@@ -138,23 +139,7 @@ export default function Hero() {
               {/* Avatar circle */}
               <div className="absolute inset-8 rounded-full bg-gradient-to-br from-purple-900 to-deep flex items-center justify-center border border-purple-700/30 animate-glow overflow-hidden">
                 {/* Abstract person silhouette */}
-                <svg viewBox="0 0 200 200" className="w-full h-full opacity-80">
-                  <defs>
-                    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#c4b5fd" />
-                      <stop offset="100%" stopColor="#6d28d9" />
-                    </linearGradient>
-                    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
-                      <stop offset="0%" stopColor="#8b5cf6" stopOpacity="0.3" />
-                      <stop offset="100%" stopColor="#050508" stopOpacity="0" />
-                    </radialGradient>
-                  </defs>
-                  <circle cx="100" cy="100" r="100" fill="url(#glowGrad)" />
-                  {/* Head */}
-                  <circle cx="100" cy="72" r="28" fill="url(#avatarGrad)" opacity="0.9" />
-                  {/* Body */}
-                  <ellipse cx="100" cy="145" rx="40" ry="35" fill="url(#avatarGrad)" opacity="0.7" />
-                </svg>
+                <img src={photo} alt="Fong XIONG" className='w-full h-full object-cover' />
               </div>
 
               {/* Floating skill chips */}
@@ -167,11 +152,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in" style={{ animationDelay: '1s' }}>
-        <span className="font-mono text-xs text-gray-600 tracking-widest">SCROLL</span>
-        <div className="w-px h-12 bg-gradient-to-b from-purple-600 to-transparent animate-pulse" />
-      </div>
+      
     </section>
   )
 }

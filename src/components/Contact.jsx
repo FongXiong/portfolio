@@ -42,7 +42,7 @@ export default function Contact() {
       setSent(true)
     } catch (err) {
       console.error('EmailJS error:', err)
-      setError('ສົ່ງບໍ່ສຳເລັດ ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.')
+      setError('Failed to send. Please try again.')
     } finally {
       setLoading(false)
     }
@@ -50,7 +50,8 @@ export default function Contact() {
 
   const socials = [
     { label: 'Facebook', icon: '◈', href: 'https://facebook.com', handle: 'Xyooj Tsis Nkag Siab' },
-    { label: 'Email', icon: '◉', href: 'mailto:fongxiong51@gmail.com', handle: 'fongxiong51@gmail.com' },
+    { label: 'Email', icon: '◈', href: 'mailto:fongxiong51@gmail.com', handle: 'fongxiong51@gmail.com' },
+    { label: 'Whatsapp', icon: '◈', href: 'https://wa.me/8562077636481', handle: '+856 2077636481' },
   ]
 
   return (
@@ -153,7 +154,8 @@ export default function Contact() {
                   {[
                     { label: 'Email', value: 'fongxiong51@gmail.com', href: 'mailto:fongxiong51@gmail.com' },
                     { label: 'Facebook', value: 'Xyooj Tsis Nkag Siab', href: 'https://facebook.com' },
-                    { label: 'Location', value: 'ດົງດອກ, ໄຊທານີ, ວຽງຈັນ 🇱🇦', href: null },
+                    {label: 'WhatsApp', value: '+856 2077636481', href: 'https://wa.me/8562077636481'},
+                    { label: 'Location', value: 'Dongdok Village, Xaythany District, Vientian Capital 🇱🇦', href: null },
                     { label: 'Status', value: '● Open to opportunities', href: null, green: true },
                   ].map(({ label, value, href, green }) => (
                     <div key={label} className="flex flex-col">

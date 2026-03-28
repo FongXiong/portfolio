@@ -6,7 +6,7 @@ const projects = [
     title: 'DetecFace System',
     category: 'System Dev',
     tags: ['C#', 'Visual Studio 2022', 'Face Detection', 'Windows Forms'],
-    desc: 'ລະບົບກວດສອບໃບໜ້າ (Face Detection System) ພັດທະນາດ້ວຍ C# ໃນ Visual Studio 2022. ສາມາດກວດຈັບ ແລະ ລະບຸໃບໜ້າຈາກກ້ອງ real-time ໄດ້.',
+    desc: 'A Face Detection System developed with C# in Visual Studio 2022. Capable of detecting and identifying faces from a camera in real-time.',
     color: '#6d28d9',
     highlight: 'from-purple-900/40 to-void',
     featured: true,
@@ -17,7 +17,7 @@ const projects = [
     title: 'Next Project',
     category: 'Coming Soon',
     tags: ['???'],
-    desc: 'ໂປຣເຈັກຕໍ່ໄປກຳລັງຢູ່ໃນຂັ້ນຕອນການວາງແຜນ — ຕິດຕາມໄດ້ເລີຍ!',
+    desc: 'The next project is currently in the planning stage — stay tuned!',
     color: '#2d1054',
     highlight: 'from-purple-950/20 to-void',
     featured: false,
@@ -28,7 +28,7 @@ const projects = [
     title: 'Next Project',
     category: 'Coming Soon',
     tags: ['???'],
-    desc: 'ໂປຣເຈັກຕໍ່ໄປກຳລັງຢູ່ໃນຂັ້ນຕອນການວາງແຜນ — ຕິດຕາມໄດ້ເລີຍ!',
+    desc: 'The next project is currently in the planning stage — stay tuned!',
     color: '#2d1054',
     highlight: 'from-purple-950/20 to-void',
     featured: false,
@@ -70,7 +70,7 @@ function ProjectCard({ project, index }) {
           </div>
           <div>
             <div className="font-mono text-xs text-purple-800 tracking-widest mb-2">COMING SOON</div>
-            <div className="font-body text-sm text-gray-700">ໂປຣເຈັກຕໍ່ໄປກຳລັງມາ — ຕິດຕາມໄດ້ເລີຍ!</div>
+            <div className="font-body text-sm text-gray-700">The next project is currently in the planning stage — stay tuned!</div>
           </div>
         </div>
       </div>

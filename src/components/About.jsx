@@ -70,13 +70,13 @@ export default function About() {
               CREATOR
             </h2>
             <p className="font-body text-gray-400 leading-relaxed mb-6">
-              ຂ້ອຍຊື່ Fong XIONG, ນັກພັດທະນາ ແລະ ນັກອອກແບບ ຈາກ ດົງດອກ, ໄຊທານີ, ວຽງຈັນ.
-              ຂ້ອຍມີຄວາມສາມາດຫຼາຍດ້ານ ທັງ Web, Mobile App, ແລະ Graphic Design —
-              ສ້າງສິ່ງທີ່ທັງສວຍງາມ ແລະ ໃຊ້ງານໄດ້ຈິງ.
+              My name is Fong XIONG, a developer and designer from Dongdok, Xaysettha, Vientiane. 
+              I have versatile skills in Web, Mobile App, and Graphic Design — with a passion for
+              creating things that are both beautiful and truly functional.
             </p>
             <p className="font-body text-gray-500 leading-relaxed mb-10">
-              ມີປະສົບການສ້າງລະບົບ DetecFace System ໂດຍໃຊ້ C# ແລະ Visual Studio 2022.
-              ມີຄວາມຮັກໃນການຂຽນ code ທີ່ສະອາດ ແລະ ອອກແບບ interface ທີ່ສວຍງາມ.
+              Experienced in building a Face Detection System using C# and Visual Studio 2022. 
+              Passionate and always eager to learn in writing clean code and designing beautiful interfaces.
             </p>
 
             {/* Highlight cards */}

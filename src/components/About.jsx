@@ -83,9 +83,9 @@ export default function About() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { icon: '⚡', title: 'Web Dev', desc: 'React + Node.js full stack development' },
-                { icon: '📱', title: 'Mobile App', desc: 'Cross-platform apps ດ້ວຍ Flutter' },
-                { icon: '🎨', title: 'Graphic Design', desc: 'UI/UX ດ້ວຍ Figma ແລະ Inkscape' },
-                { icon: '🖥️', title: 'System Dev', desc: 'C# application ດ້ວຍ Visual Studio' },
+                { icon: '📱', title: 'Mobile App', desc: 'Cross-platform apps by Flutter' },
+                { icon: '🎨', title: 'Graphic Design', desc: 'UI/UX by Figma and Inkscape' },
+                { icon: '🖥️', title: 'System Dev', desc: 'C# application by Visual Studio' },
               ].map(({ icon, title, desc }) => (
                 <div
                   key={title}

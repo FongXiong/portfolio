@@ -127,7 +127,7 @@ export default function Skills() {
         <div ref={ref} className="section-reveal mb-16">
           <h2 className="font-display text-5xl lg:text-6xl gradient-text mb-4">MY ARSENAL</h2>
           <p className="font-body text-gray-500 max-w-lg">
-            4 ດ້ານ. ສະໝອງດຽວ. ທັກສະທີ່ສ້າງຂຶ້ນຈາກການຝຶກ ແລະ ປະສົບການຈິງ.
+            Four Dimensions: A Singular Mindset, Skills Honed by Practice, and Real-World Experience.
           </p>
         </div>
 
